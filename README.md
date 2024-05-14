@@ -1,10 +1,13 @@
-# libwrapdroid
+# libwrapdroid-a10plus
 
 System V and Posix shared memory wrapper
 for chrooted environments _(i.e.: PRoot)_
 under Android.
 Supposed to be an extended version of
 <https://github.com/termux/libandroid-shmem>
+
+** Forked by 26uk247 to attempt POSIX shared memory emulation in Debian 11 on Android 14 (via Linux Deploy chroot), in order to use the Ham Radio program wsjtx
+** Forked from <https://github.com/green-green-avk/libwrapdroid>
 
 * Android 10 and higher support (not relied upon _ashmem_):
   see <https://developer.android.com/about/versions/10/behavior-changes-10#shared-memory>
